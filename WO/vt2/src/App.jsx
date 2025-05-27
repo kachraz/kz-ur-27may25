@@ -1,7 +1,7 @@
 import { useState } from "react"
 import reactLogo from "./assets/react.svg"
 import viteLogo from "/vite.svg"
-import gLogo from "/g.svg"
+import gLogo from "./assets/g.svg"
 import "./App.css"
 import Header from "./comps/hea"
 import Footer from "./comps/footer"
