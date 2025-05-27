@@ -4,8 +4,10 @@ import gLogo from "./assets/g.svg"
 import reactLogo from "./assets/react.svg"
 import Footer from "./comps/footer"
 import Header from "./comps/hea"
+import useIpAddress from "./comps/ipaddy"
 import viteLogo from "/vite.svg"
-import function App() {
+
+function App() {
   //env
   const greeting = import.meta.env.VITE_RAPE
 
@@ -25,7 +27,7 @@ import function App() {
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
       </div>
-      <h3>Ur Ip {ipAddress}</h3>
+      <h3>Ur Ip {useIpAddress}</h3>
       <h1>Vite + React</h1>
       <h2>{greeting}</h2>
       <div className="card">

@@ -1,4 +1,4 @@
-// Get the ip address of the user
+// get Ip address
 
 import { useEffect, useState } from "react"
 
