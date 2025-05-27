@@ -17,7 +17,7 @@ function App() {
 
   useEffect(() => {
     // Fetch the IP address from the API
-    fetch("https://api.ipify.org?format=json")
+    fetch(`${import.meta.env.VITE_API_URL}?format=json`)
       .then((response) => response.json())
       .then((data) => {
         setIpAddress(data.ip)
