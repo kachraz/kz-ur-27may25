@@ -13,6 +13,7 @@ function App() {
 
   const [count, setCount] = useState(0)
 
+  // React Hookss have to be set at the top level of the component
   const ipAddress = useIpAddress()
 
   return (
