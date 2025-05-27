@@ -7,6 +7,9 @@ import Header from "./comps/hea"
 import viteLogo from "/vite.svg"
 
 function App() {
+  //env
+  const greeting = import.meta.env.VITE_RAPE
+
   const [count, setCount] = useState(0)
 
   return (
@@ -24,6 +27,7 @@ function App() {
         </a>
       </div>
       <h1>Vite + React</h1>
+      <h2>{greeting}</h2>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
