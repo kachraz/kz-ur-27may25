@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react"
 
-export function useIpAddress() {
+export default function useIpAddress() {
   const [ipAddress, setIpAddress] = useState("")
 
   useEffect(() => {
