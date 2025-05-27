@@ -5,8 +5,7 @@ import reactLogo from "./assets/react.svg"
 import Footer from "./comps/footer"
 import Header from "./comps/hea"
 import viteLogo from "/vite.svg"
-
-function App() {
+import function App() {
   //env
   const greeting = import.meta.env.VITE_RAPE
 
