@@ -1,6 +1,0 @@
-cdn.cantina.xyz
-maintenance.cantina.xyz
-docs.cantina.xyz
-www.cantina.xyz
-auth.cantina.xyz
-support.cantina.xyz
