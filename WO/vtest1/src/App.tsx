@@ -8,7 +8,7 @@ function App() {
 
   return (
     <>
-      <div className="flex items-center justify-center min-h-screen columns-3">
+      <div className="flex items-center justify-center min-h-screen flex-col gap-4">
         <div>
           <a href="https://vite.dev" target="_blank">
             <img src={viteLogo} className="logo" alt="Vite logo" />
