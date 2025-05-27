@@ -4,6 +4,7 @@ import viteLogo from "/vite.svg"
 import gLogo from "/g.svg"
 import "./App.css"
 import Header from "./comps/hea"
+import Footer from "./comps/footer"
 
 function App() {
   const [count, setCount] = useState(0)
@@ -34,6 +35,7 @@ function App() {
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
       </p>
+      <Footer />
     </>
   )
 }
