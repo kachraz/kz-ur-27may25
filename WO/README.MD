@@ -9,5 +9,6 @@
 
 # Diraz
 
-| Dirz | Wat |
-| :--: | :-: |
+|         Dirz          |                  Wat                   |
+| :-------------------: | :------------------------------------: |
+| [`vtest1`](./vtest1/) | Testing vite with bun, and tailwindcss |
