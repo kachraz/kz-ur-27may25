@@ -13,6 +13,8 @@ function App() {
 
   const [count, setCount] = useState(0)
 
+  const ipAddress = useIpAddress()
+
   return (
     <>
       <Header />
@@ -27,7 +29,7 @@ function App() {
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
       </div>
-      <h3>Ur Ip {useIpAddress}</h3>
+      <h3>Ur Ip {ipAddress}</h3>
       <h1>Vite + React</h1>
       <h2>{greeting}</h2>
       <div className="card">
