@@ -1,10 +1,10 @@
 import { useState } from "react"
-import reactLogo from "./assets/react.svg"
-import viteLogo from "/vite.svg"
-import gLogo from "./assets/g.svg"
 import "./App.css"
-import Header from "./comps/hea"
+import gLogo from "./assets/g.svg"
+import reactLogo from "./assets/react.svg"
 import Footer from "./comps/footer"
+import Header from "./comps/hea"
+import viteLogo from "/vite.svg"
 
 function App() {
   const [count, setCount] = useState(0)
