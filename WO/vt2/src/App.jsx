@@ -1,4 +1,4 @@
-import { useState } from "react"
+import { useEffect, useState } from "react"
 import "./App.css"
 import gLogo from "./assets/g.svg"
 import reactLogo from "./assets/react.svg"
@@ -11,6 +11,21 @@ function App() {
   const greeting = import.meta.env.VITE_RAPE
 
   const [count, setCount] = useState(0)
+
+  // Use this state variable in the ui
+  const [ipAddress, setIpAddress] = useState("")
+
+  useEffect(() => {
+    // Fetch the IP address from the API
+    fetch("https://api.ipify.org?format=json")
+      .then((response) => response.json())
+      .then((data) => {
+        setIpAddress(data.ip)
+      })
+      .catch((error) => {
+        console.error("Error fetching IP address:", error)
+      })
+  }, [])
 
   return (
     <>
