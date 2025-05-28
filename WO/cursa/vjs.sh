@@ -45,5 +45,6 @@ pnpm_create_vite() {
 }
 
 # --- Execution ---
-bun_create_vite
+# bun_create_vite
 # pnpm_create_vite
+vercel_cli_install
