@@ -31,7 +31,7 @@ vercel_cli_install() {
 # bun create vite
 bun_create_vite() {
     h1 "bun create vite"
-    co1="bun create vite"
+    co1="bun create vite@latest"
     echo -e "${GREEN}Command: ${NC}${co1}"
     eval "$co1"
 }
@@ -45,6 +45,6 @@ pnpm_create_vite() {
 }
 
 # --- Execution ---
-# bun_create_vite
+bun_create_vite
 # pnpm_create_vite
-vercel_cli_install
+# vercel_cli_install
