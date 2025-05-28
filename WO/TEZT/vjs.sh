@@ -38,13 +38,13 @@ bun_create_vite() {
 
 # pnpm create vite - static
 pnpm_create_vite() {
-    h1 "pnpm create vite"
+    h1 "pnpm create vite@latest"
     co1="pnpm create vite"
     echo -e "${GREEN}Command: ${NC}${co1}"
     eval "$co1"
 }
 
 # --- Execution ---
-bun_create_vite
-# pnpm_create_vite
+# bun_create_vite
+pnpm_create_vite
 # vercel_cli_install
