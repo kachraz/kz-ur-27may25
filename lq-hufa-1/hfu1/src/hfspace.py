@@ -16,7 +16,7 @@ load_dotenv("src/.env")
 hf_token = os.getenv("HF")
 
 # Main Repo ID here
-REPO_ID = "Liqo/smpnor1"
+REPO_ID = "Chooth/rvjspnpm1"
 
 
 # Main function that will call the sub functions
@@ -24,9 +24,9 @@ def hf_space_ops():
     """
     Main function for Hugging Face repository operations.
     """
-    # hf_create_space()
-    # hf_upload_dirz()
-    hf_delete_spaces()
+    # hf_delete_spaces()
+    hf_create_space()
+    hf_upload_dirz()
 
 
 # --- Function for creating a repo ---
@@ -55,7 +55,7 @@ def hf_create_space():
         token=hf_token,
         repo_id=REPO_ID,
         repo_type="space",
-        space_sdk="gradio",
+        space_sdk="static",
     )
 
     header2(f"{REPO_ID}")
@@ -92,7 +92,7 @@ def hf_upload_dirz():
     """
 
     # Folder to upload
-    local_folder_path = "../app1/"  # Path to your local folder
+    local_folder_path = "../../WO/tzp1/"  # Path to your local folder
     path_in_repo = ""  # Upload to repo root (change to subdir like "folder/" if needed)
 
     # Upload the folder
@@ -140,9 +140,9 @@ def hf_delete_spaces():
 
     # Config
     repo_ids = [
-        "Chooth/DtrazSet1"
+        "Chooth/rvjsb1",
     ]
-    repo_type = "dataset"
+    repo_type = "space"
     token = hf_token
     missing_ok = True
 

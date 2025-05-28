@@ -36,5 +36,13 @@ bun_create_vite() {
     eval "$co1"
 }
 
+# pnpm create vite - static
+pnpm_create_vite() {
+    h1 "pnpm create vite"
+    co1="pnpm create vite"
+    echo -e "${GREEN}Command: ${NC}${co1}"
+    eval "$co1"
+}
+
 # --- Execution ---
-bun_create_vite
+pnpm_create_vite
