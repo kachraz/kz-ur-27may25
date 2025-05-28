@@ -45,4 +45,5 @@ pnpm_create_vite() {
 }
 
 # --- Execution ---
-pnpm_create_vite
+bun_create_vite
+# pnpm_create_vite
