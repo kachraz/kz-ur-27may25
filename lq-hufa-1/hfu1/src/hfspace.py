@@ -108,6 +108,7 @@ def hf_upload_dirz():
             "*.pyc",
             ".env",
             ".env/*",
+            "node_modules/"
         ],  # Ignore these patterns
         repo_type="space",  # Change to "dataset" or "space" if needed
         commit_message="SmellPantySpace",
