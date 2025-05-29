@@ -9,7 +9,14 @@
     },
     "ghcr.io/devcontainers/features/go:1": {
       "version": "latest"
+    },
+    "ghcr.io/devcontainers/features/docker-in-docker:2": {
+      "version": "latest"
     }
   },
-  "postCreateCommand": "chmod +x .devcontainer/setup.sh && .devcontainer/setup.sh"
+  "postCreateCommand": "chmod +x .devcontainer/setup.sh && .devcontainer/setup.sh",
+  "mounts": [
+    "source=/var/run/docker.sock,target=/var/run/docker.sock,type=bind"
+  ],
+  "runArgs": ["--privileged"]
 }
