@@ -1,4 +1,12 @@
 import { Button } from "@/components/ui/button"
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardFooter,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card"
 
 function App() {
   return (
@@ -9,7 +17,9 @@ function App() {
         <Card>
           <CardHeader>
             <CardTitle>Card Title</CardTitle>
-            <CardDescription>Card Description</CardDescription>
+            <CardDescription>
+              Card Description It is many many things and such{" "}
+            </CardDescription>
           </CardHeader>
           <CardContent>
             <p>Card Content</p>
