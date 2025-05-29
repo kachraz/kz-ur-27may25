@@ -10,3 +10,4 @@
 |       Dirz        |                    Wat                    |
 | :---------------: | :---------------------------------------: |
 | [`tzp1`](./tzp1/) | Basic vite js projects, which is UL to HF |
+| [`sh2`](./sh2//)  |     PNPM vite JS with Shadcn UL to HF     |
