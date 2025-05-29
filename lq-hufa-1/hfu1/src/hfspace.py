@@ -16,7 +16,7 @@ load_dotenv("src/.env")
 hf_token = os.getenv("HF")
 
 # Main Repo ID here
-REPO_ID = "Chooth/rvjspnpm1"
+REPO_ID = "Chooth/vrs1"
 
 
 # Main function that will call the sub functions
@@ -92,7 +92,7 @@ def hf_upload_dirz():
     """
 
     # Folder to upload
-    local_folder_path = "../../WO/tzp1/"  # Path to your local folder
+    local_folder_path = "../../WO/TEZT/sh2/"  # Path to your local folder
     path_in_repo = ""  # Upload to repo root (change to subdir like "folder/" if needed)
 
     # Upload the folder
