@@ -19,6 +19,14 @@ hf_token = os.getenv("HF")
 REPO_ID = "Chooth/vrs1"
 
 
+
+#  ███████╗ ██╗   ██╗ ███╗   ██╗  ██████╗
+#  ██╔════╝ ██║   ██║ ████╗  ██║ ██╔════╝
+#  █████╗   ██║   ██║ ██╔██╗ ██║ ██║     
+#  ██╔══╝   ██║   ██║ ██║╚██╗██║ ██║     
+#  ██║      ╚██████╔╝ ██║ ╚████║ ╚██████╗
+#  ╚═╝       ╚═════╝  ╚═╝  ╚═══╝  ╚═════╝
+
 # Main function that will call the sub functions
 def hf_space_ops():
     """
@@ -33,6 +41,12 @@ def hf_space_ops():
 
 # Note this function is the same as used in hfrepo. But added with some
 
+#  ███╗   ███╗  █████╗  ██╗  ██╗ ███████╗
+#  ████╗ ████║ ██╔══██╗ ██║ ██╔╝ ██╔════╝
+#  ██╔████╔██║ ███████║ █████╔╝  █████╗  
+#  ██║╚██╔╝██║ ██╔══██║ ██╔═██╗  ██╔══╝  
+#  ██║ ╚═╝ ██║ ██║  ██║ ██║  ██╗ ███████╗
+#  ╚═╝     ╚═╝ ╚═╝  ╚═╝ ╚═╝  ╚═╝ ╚══════╝
 
 def hf_create_space():
     header1("Creating a Hugging Face Repository - Model")
@@ -64,6 +78,12 @@ def hf_create_space():
 
 # --- Uploaading files to space ---
 
+#  ██╗   ██╗ ██╗     
+#  ██║   ██║ ██║     
+#  ██║   ██║ ██║     
+#  ██║   ██║ ██║     
+#  ╚██████╔╝ ███████╗
+#   ╚═════╝  ╚══════╝
 
 def hf_upload_dirz():
     header1("Uploading a Folder to Hugging Face Repository")
@@ -121,6 +141,13 @@ def hf_upload_dirz():
 
 
 # --- Deleteing Spaces ---
+
+#  ██████╗  ███████╗ ██╗     
+#  ██╔══██╗ ██╔════╝ ██║     
+#  ██║  ██║ █████╗   ██║     
+#  ██║  ██║ ██╔══╝   ██║     
+#  ██████╔╝ ███████╗ ███████╗
+#  ╚═════╝  ╚══════╝ ╚══════╝
 
 
 def hf_delete_spaces():
