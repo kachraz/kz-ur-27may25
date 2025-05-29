@@ -6,7 +6,7 @@ function App() {
     <>
       <div className="flex flex-col items-center justify-center min-h-svh">
         <h1 className="text-2xl font-bold mb-4">Welcome to Vite UI</h1>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-y-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mx-2.5">
           <CardDemo />
           <CalendarDemo />
         </div>
