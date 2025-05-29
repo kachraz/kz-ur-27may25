@@ -33,8 +33,8 @@ def hf_space_ops():
     Main function for Hugging Face repository operations.
     """
     hf_delete_spaces()
-    hf_create_space()
-    hf_upload_dirz()
+    # hf_create_space()
+    # hf_upload_dirz()
 
 
 # --- Function for creating a repo ---
@@ -168,7 +168,7 @@ def hf_delete_spaces():
 
     # Config
     repo_ids = [
-        "Chooth/vrs1",
+        "Chooth/rvjspnpm1",
     ]
     repo_type = "space"
     token = hf_token
